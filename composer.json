@@ -1,5 +1,5 @@
 {
-    "name": "shopify/shopify-api",
+    "name": "tonchik-tm/shopify-api",
     "description": "Shopify API Library for PHP",
     "type": "library",
     "license": "MIT",
@@ -31,7 +31,9 @@
         }
     },
     "require": {
-        "php": "^7.4 || ^8.0 || ^8.1",
+        "php": "^7.3 || ^7.4 || ^8.0 || ^8.1",
+        "ext-json": "*",
+        "ext-mbstring": "*",
         "ramsey/uuid": "^4.1",
         "psr/log": "^1.1",
         "firebase/php-jwt": "^5.2",
